@@ -1,18 +1,18 @@
-# Simple Caesar Cipher Encryption/Decryption
+# Simple Network Scanner
 
-Encrypts and decrypts text using a basic Caesar cipher.
+Scans a local network host for open ports using Python sockets.
 
 ## Features
-- Encrypt text with a shift number
-- Decrypt text using the same shift number
+- Scans ports 20–1024
+- Reports open ports
 
 ## Skills Demonstrated
 - Python programming
-- Cryptography basics
-- String manipulation
+- Networking fundamentals
+- Security reconnaissance
 
 ## How to Run
+⚠ Scan only your own devices or lab network.
 ```
-python encrypt.py
-python decrypt.py
+python scanner.py
 ```
